@@ -1,0 +1,42 @@
+.tittleArea {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+  &__tittle {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    &__tText {
+      font-size: 18px;
+      font-weight: 700;
+      color: #444;
+      position: relative;
+      &::before {
+        content: "";
+        width: 40px;
+        height: 3px;
+        background-color: #e4002b;
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+      }
+    }
+    &__tImg {
+      width: 30px;
+      height: 30px;
+      overflow: hidden;
+      & > img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  &__view {
+    display: flex;
+    column-gap: 10px;
+    color: #007aff;
+    font-size: 17px;
+    font-weight: 500;
+  }
+}

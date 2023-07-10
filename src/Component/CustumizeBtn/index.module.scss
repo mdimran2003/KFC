@@ -1,0 +1,20 @@
+.btnArea {
+  padding: 10px 5px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #007aff;
+  background-color: #fff;
+  border-radius: 6px;
+  & > p {
+    & > span {
+      display: inline-block;
+      width: 18px;
+      height: 18px;
+      background-color: #007aff;
+      margin-left: 5px;
+      border-radius: 5px;
+      text-align: center;
+      color: #fff;
+    }
+  }
+}

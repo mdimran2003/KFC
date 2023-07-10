@@ -1,0 +1,15 @@
+.btnArea {
+  border: 1px solid #e4002b;
+  padding: 10px 13px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 10px;
+  background-color: #e4002b;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  &:hover {
+    opacity: 0.8;
+  }
+}

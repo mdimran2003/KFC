@@ -1,0 +1,13 @@
+.sellerArea {
+  width: 80%;
+  margin: auto;
+
+  &__sellerCard {
+    width: 100%;
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 40px;
+    overflow: hidden;
+  }
+}

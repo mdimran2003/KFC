@@ -1,0 +1,79 @@
+.cardArea {
+  padding: 10px 8px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 2px rgba(217, 221, 230, 0.8);
+  text-align: center;
+  position: relative;
+  &__dealImg {
+    display: inline-block;
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    margin-top: -140px;
+    & > img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &__dealname {
+    display: flex;
+    column-gap: 10px;
+    text-align: left;
+    & > h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #393f52;
+    }
+    & > span {
+      color: #e4002b;
+    }
+  }
+  & > hr {
+    margin: 10px 0;
+  }
+  &__dealDetail {
+    text-align: left;
+    font-size: 13px;
+    font-weight: 700;
+    color: #6a6e7b;
+  }
+  &__dealBtn {
+    display: inline-block;
+    width: 70%;
+    margin: auto;
+    position: absolute;
+    bottom: -25px;
+    left: 15%;
+  }
+  &__custmizeDeal {
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    border-radius: 8px;
+    margin: 10px 0 15px 0;
+    background: #f0f4fa;
+    padding: 5px;
+    &__priceDetal {
+      &__priceOff {
+        font-size: 11px;
+        font-weight: 700;
+        color: #a1a2a4;
+        text-decoration: line-through;
+      }
+      &__price {
+        font-size: 14px;
+        font-weight: 700;
+        color: #3e4354;
+        &__discount {
+          margin-left: 5px;
+          color: #e4002b;
+          font-size: 11px;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}

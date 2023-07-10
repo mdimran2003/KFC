@@ -1,0 +1,41 @@
+.locationArea {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  border: 1px solid #dfefff;
+  background-color: #dfefff4d;
+  position: relative;
+  &__icon {
+    font-size: 22px;
+    color: #393f52;
+  }
+  &__textArea {
+    &__selectedText {
+      font-size: 12px;
+      font-weight: 700;
+      color: #393f52;
+    }
+    &__getListText {
+      font-size: 13px;
+      color: #777;
+    }
+  }
+  &__select {
+    position: absolute;
+    top: 1px;
+    right: 8px;
+    & > Select {
+      background-color: #007aff;
+      color: #fff;
+      outline: none;
+      border: none;
+      border-radius: 2px;
+      padding: 1px 2px;
+      font-size: 10px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.card {
+  width: 100%;
+  height: 352px;
+  overflow: hidden;
+  border-radius: 10px;
+  & > img {
+    width: 100%;
+    height: 100%;
+  }
+}

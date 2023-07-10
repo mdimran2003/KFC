@@ -1,0 +1,9 @@
+.cardArea {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+  row-gap: 40px;
+  padding: 50px 0;
+}

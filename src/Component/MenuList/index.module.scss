@@ -1,0 +1,11 @@
+.menuArea {
+  width: 80%;
+  margin: auto;
+  padding: 60px 0;
+  &__menuItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 60px;
+  }
+}

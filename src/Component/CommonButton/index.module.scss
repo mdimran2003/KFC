@@ -1,0 +1,21 @@
+.btnArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  color: #e4002b;
+  border: 2px solid #e4002b;
+  box-shadow: 0px 11.5338px 11.5338px rgba(228, 0, 43, 0.1);
+  background-color: #ffffff;
+  padding: 8px 10px;
+  font-size: 13px;
+  border-radius: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.3s;
+  cursor: pointer;
+  &:hover {
+    background-color: #e4002b;
+    color: #ffffff;
+  }
+}

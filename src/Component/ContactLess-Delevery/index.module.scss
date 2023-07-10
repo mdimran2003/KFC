@@ -1,0 +1,16 @@
+.deleveyArea {
+  width: 80%;
+  margin: auto;
+  padding: 0 0 120px 0;
+  &__deleveryCardArea {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    padding: 10px 0;
+    & > span {
+      display: inline-block;
+      width: 180%;
+    }
+  }
+}
