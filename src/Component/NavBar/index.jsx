@@ -46,7 +46,7 @@ const NaveBar = () => {
             <img src={logo} alt="error" />
           </span>
           {tabObj.map((item) => {
-            return <CommonTab img={item.img} tittle={item.tittle} />;
+            return <CommonTab key={item.tittle} img={item.img} tittle={item.tittle} />;
           })}
         </div>
         <div className={Styles.navArea__navBar__loginArea}>

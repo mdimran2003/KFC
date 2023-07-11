@@ -1,0 +1,15 @@
+.owl-theme .owl-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+  width: 30px;
+  background-color: #fff !important;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  background-color: #ccc !important;
+}

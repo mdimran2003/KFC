@@ -4,7 +4,7 @@ const LocationField = () => {
   return (
     <div className={Styles.locationArea}>
       <span className={Styles.locationArea__icon}>
-        <i class="fa-solid fa-location-dot"></i>
+        <i className="fa-solid fa-location-dot"></i>
       </span>
       <div className={Styles.locationArea__textArea}>
         <p className={Styles.locationArea__textArea__selectedText}>SELECT LOCATION </p>

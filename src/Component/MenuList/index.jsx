@@ -38,7 +38,7 @@ const MenuList = () => {
       <CommonTittle tittle="EXPLORE MENU" img={legImg} viewbtn="View All" icon={<i className="fa-solid fa-right-to-bracket"></i>} />
       <div className={Styles.menuArea__menuItem}>
         {menuItemObj.map((item) => {
-          return <MenuItem img={item.img} tittle={item.tittle} />;
+          return <MenuItem key={item.tittle} img={item.img} tittle={item.tittle} />;
         })}
       </div>
     </div>

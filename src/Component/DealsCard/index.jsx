@@ -9,12 +9,12 @@ const DealsCard = () => {
       <span className={Styles.cardArea__dealImg}>
         <img src={dealImg} alt="err" />
       </span>
-      <p className={Styles.cardArea__dealname}>
-        <h3>8 Pcs. Lay's Flamin' Hot Bucket</h3>
+      <div className={Styles.cardArea__dealname}>
+        <p>8 Pcs. Lay's Flamin' Hot Bucket</p>
         <span>
           <i className="fa-regular fa-heart"></i>
         </span>
-      </p>
+      </div>
       <hr />
       <p className={Styles.cardArea__dealDetail}>8 Pcs Lay's Chicken + Family Fries + Large Coleslaw + 500mL Drink</p>
       <div className={Styles.cardArea__custmizeDeal}>
