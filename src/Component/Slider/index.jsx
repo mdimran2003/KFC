@@ -11,7 +11,6 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 const Slider = () => {
   const options = {
     margin: 30,
-    responsive: true,
     nav: false,
     dots: true,
     loop: true,
